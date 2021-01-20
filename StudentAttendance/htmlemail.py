@@ -4,9 +4,9 @@ from email.mime.multipart import MIMEMultipart
 
 def sendemail(useremail,userpassword):
 
-    sender_email = "connectkalka@gmail.com"
+    sender_email = "Enter Your Email Id "
     receiver_email = useremail
-    password ="kalkahacker786786@"
+    password ="Enter Your Password"
 
     message = MIMEMultipart("alternative")
     message["Subject"] = "Login credentials For DashBoard"
