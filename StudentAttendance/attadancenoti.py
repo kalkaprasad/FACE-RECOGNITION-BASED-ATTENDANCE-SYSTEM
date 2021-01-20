@@ -4,9 +4,9 @@ from email.mime.multipart import MIMEMultipart
 
 
 def attadancenotif(aa,reciver,Id,date,timeStamp):
-    sender_email = "connectkalka@gmail.com"
+    sender_email = "Enter Your Email"
     receiver_email = reciver
-    password = "kalkahacker786786@"
+    password = "Enter Your Password"
     message = MIMEMultipart("alternative")
     message["Subject"] = "Attadance taken Successfully|| Check Your  DashBoard"
     message["From"] = sender_email
