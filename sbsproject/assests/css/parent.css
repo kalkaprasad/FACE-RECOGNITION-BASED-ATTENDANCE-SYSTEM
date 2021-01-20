@@ -1,0 +1,82 @@
+
+#card1{
+
+	border: 3px solid #ccc;
+      padding: 10px;
+      color: white;
+      background: #00BFA5;
+      border-radius: 20px;
+      box-shadow: 3px 10px 20px #888;
+
+}
+#card1 {
+  /* the other rules */
+  transition: height 0.3s, box-shadow 0.3s;
+}
+#card1:hover {
+      transition: all;
+  box-shadow: 20px 20px 40px 0px rgba(0,0,0,0.5);
+}
+
+#card2:hover {
+      transition: all;
+  box-shadow: 20px 20px 40px 0px rgba(0,0,0,0.5);
+}
+#card3:hover {
+      transition: all;
+  box-shadow: 20px 20px 40px 0px rgba(0,0,0,0.5);
+}
+#card2{
+
+	border: 3px solid #ccc;
+      padding: 10px;
+      color: white;
+      background: #F57F17;
+      border-radius: 20px;
+      box-shadow: 3px 10px 20px #888;
+
+}
+#card3{
+
+	border: 3px solid #ccc;
+      padding: 10px;
+      color: white;
+      background: #F4511E;
+      border-radius: 20px;
+      box-shadow: 3px 10px 20px #888;
+
+}
+#imgIcon{
+	height: 85px;
+	width: 80px;
+	border: 2px solid #E040FB;
+
+
+	border-radius: 50%;
+}
+.card-text{
+
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+
+.dot {
+      height: 15px;
+      width: 15px;
+      background-color: red;
+      border-radius: 50%;
+      display: inline-block;
+    }
+  
+  .sec{
+      position: relative;
+      right: -13px;
+      top:-22px;
+  }
+  
+  .counter.counter-lg {
+      top: -24px !important;
+  }
+  

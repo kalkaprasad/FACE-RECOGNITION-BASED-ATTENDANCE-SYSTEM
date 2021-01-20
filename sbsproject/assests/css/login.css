@@ -1,0 +1,39 @@
+.loginform{
+width: fit-content;
+			height: fit-content;
+			border: 3px solid #ccc;
+			padding: 40px;
+			 	background: linear-gradient(#141e30, #243b55);
+			border-radius: 20px;
+			box-shadow: 3px 10px 20px #888;
+			text-align: center;
+}
+
+section{
+			display: flex !important;
+			align-items: center;
+			justify-content: center;
+		}
+		body,section
+		{
+			background: linear-gradient(#141e30, #243b55);
+			height: 100vh;
+			width: 100vw;
+		}
+		.btn.btn-primary{
+
+border-radius: 50px;
+
+
+		}
+
+
+		.loginform {
+  /* the other rules */
+  transition: height 0.3s, box-shadow 0.5s;
+}
+
+.loginform:hover {
+   transition: all;
+  box-shadow: 49px 0px 40px 0px rgba(0,0,0,0.5);
+}
